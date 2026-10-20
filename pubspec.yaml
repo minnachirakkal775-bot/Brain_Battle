@@ -1,0 +1,25 @@
+  name: brain_battle
+  description: "An offline brain-training game built with Flutter and Dart."
+  publish_to: 'none'
+
+  version: 1.0.0+1
+
+  environment:
+    sdk: ^3.12.0-103.0.dev
+
+  dependencies:
+    flutter:
+      sdk: flutter
+
+    cupertino_icons: ^1.0.8
+    shared_preferences: ^2.5.5
+    sqflite: ^2.4.2+1
+    path: ^1.9.1
+
+  dev_dependencies:
+    flutter_test:
+      sdk: flutter
+    flutter_lints: ^6.0.0
+
+  flutter:
+    uses-material-design: true
